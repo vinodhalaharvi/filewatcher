@@ -1,0 +1,138 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CommandThread	__init__.py	/^from filewatcher import SnmpTrap, Email, Log, Escalation, FileHandler, FileDispatcher, CommandThread, FileWatcher$/;"	i
+CommandThread	filewatcher.py	/^class CommandThread (threading.Thread):$/;"	c
+ConfigFile	minifilewatcher.py	/^class ConfigFile(object):$/;"	c
+Email	__init__.py	/^from filewatcher import SnmpTrap, Email, Log, Escalation, FileHandler, FileDispatcher, CommandThread, FileWatcher$/;"	i
+Email	filewatcher.py	/^class Email(Escalation):$/;"	c
+Email	minifilewatcher.py	/^class Email(Escalation):$/;"	c
+Escalation	__init__.py	/^from filewatcher import SnmpTrap, Email, Log, Escalation, FileHandler, FileDispatcher, CommandThread, FileWatcher$/;"	i
+Escalation	filewatcher.py	/^class Escalation(object):$/;"	c
+Escalation	minifilewatcher.py	/^class Escalation(object):$/;"	c
+FileDispatcher	__init__.py	/^from filewatcher import SnmpTrap, Email, Log, Escalation, FileHandler, FileDispatcher, CommandThread, FileWatcher$/;"	i
+FileDispatcher	filewatcher.py	/^class FileDispatcher(object):$/;"	c
+FileHandler	__init__.py	/^from filewatcher import SnmpTrap, Email, Log, Escalation, FileHandler, FileDispatcher, CommandThread, FileWatcher$/;"	i
+FileHandler	filewatcher.py	/^class FileHandler(object):$/;"	c
+FileHandler	minifilewatcher.py	/^class FileHandler(object):$/;"	c
+FileWatcher	__init__.py	/^from filewatcher import SnmpTrap, Email, Log, Escalation, FileHandler, FileDispatcher, CommandThread, FileWatcher$/;"	i
+FileWatcher	filewatcher.py	/^class FileWatcher(object):$/;"	c
+FileWatcher	minifilewatcher.py	/^class FileWatcher(threading.Thread):$/;"	c
+FileWatcher	testpythontail.py	/^class FileWatcher(object):$/;"	c
+Log	__init__.py	/^from filewatcher import SnmpTrap, Email, Log, Escalation, FileHandler, FileDispatcher, CommandThread, FileWatcher$/;"	i
+Log	filewatcher.py	/^class Log(Escalation):$/;"	c
+Log	minifilewatcher.py	/^class Log(Escalation):$/;"	c
+MAXFILESSUPPORTED	filewatcher.py	/^MAXFILESSUPPORTED = 300$/;"	v
+MIMEText	filewatcher.py	/^from email.mime.text import MIMEText$/;"	i
+MIMEText	minifilewatcher.py	/^from email.mime.text import MIMEText$/;"	i
+MIMEText	testemail.py	/^from email.mime.text import MIMEText$/;"	i
+Queue	filewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+Queue	minifilewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+SnmpTrap	__init__.py	/^from filewatcher import SnmpTrap, Email, Log, Escalation, FileHandler, FileDispatcher, CommandThread, FileWatcher$/;"	i
+SnmpTrap	filewatcher.py	/^class SnmpTrap(Escalation):$/;"	c
+SnmpTrap	minifilewatcher.py	/^class SnmpTrap(Escalation):$/;"	c
+StringIO	minifilewatcher.py	/^    from StringIO import StringIO$/;"	i
+StringIO	minifilewatcher.py	/^    from cStringIO import StringIO$/;"	i
+StringIO	testenviron.py	/^    from StringIO import StringIO$/;"	i
+StringIO	testenviron.py	/^    from cStringIO import StringIO$/;"	i
+UpdateEnviron	minifilewatcher.py	/^class UpdateEnviron(object):$/;"	c
+UpdateEnviron	testenviron.py	/^class UpdateEnviron(object):$/;"	c
+__init__	filewatcher.py	/^	def __init__(self, ):$/;"	m	class:Log
+__init__	filewatcher.py	/^	def __init__(self, ):$/;"	m	class:SnmpTrap
+__init__	filewatcher.py	/^	def __init__(self, alertPattern , clearPattern ):$/;"	m	class:FileHandler
+__init__	filewatcher.py	/^	def __init__(self, configFile):$/;"	m	class:FileWatcher
+__init__	filewatcher.py	/^	def __init__(self, escalationType):$/;"	m	class:Escalation
+__init__	filewatcher.py	/^	def __init__(self, fileName, pollCycle, handler):$/;"	m	class:FileDispatcher
+__init__	filewatcher.py	/^	def __init__(self, to, subject, message="" ):$/;"	m	class:Email
+__init__	filewatcher.py	/^    def __init__(self, threadID, name, workQueue, queueLock):$/;"	m	class:CommandThread
+__init__	minifilewatcher.py	/^	def __init__(self, ):$/;"	m	class:Log
+__init__	minifilewatcher.py	/^	def __init__(self, ):$/;"	m	class:SnmpTrap
+__init__	minifilewatcher.py	/^	def __init__(self, ):$/;"	m	class:UpdateEnviron
+__init__	minifilewatcher.py	/^	def __init__(self, alertPattern , clearPattern ):$/;"	m	class:FileHandler
+__init__	minifilewatcher.py	/^	def __init__(self, configFileName):$/;"	m	class:ConfigFile
+__init__	minifilewatcher.py	/^	def __init__(self, configFileName, fileName, handler,  interval=10):$/;"	m	class:FileWatcher
+__init__	minifilewatcher.py	/^	def __init__(self, escalationType):$/;"	m	class:Escalation
+__init__	minifilewatcher.py	/^	def __init__(self, to, subject, message="" ):$/;"	m	class:Email
+__init__	testenviron.py	/^	def __init__(self, ):$/;"	m	class:UpdateEnviron
+__init__	testpythontail.py	/^	def __init__(self, fileName):$/;"	m	class:FileWatcher
+all	__init__.py	/^all = ($/;"	v
+configFileName	filewatcher.py	/^	configFileName =  sys.argv[1]$/;"	v	class:FileWatcher
+datetime	minifilewatcher.py	/^from datetime import datetime, timedelta$/;"	i
+exitFlag	filewatcher.py	/^exitFlag = 0$/;"	v
+fileName	testpythontail.py	/^	fileName = sys.argv[1]$/;"	v	class:FileWatcher
+follow	testpythontail.py	/^	def follow(self):$/;"	m	class:FileWatcher
+fw	filewatcher.py	/^			fw = self.workQueue.get()$/;"	v	class:CommandThread
+fw	filewatcher.py	/^	fw = FileWatcher(configFileName)$/;"	v	class:FileWatcher
+fw	testpythontail.py	/^	fw = FileWatcher(fileName)$/;"	v	class:FileWatcher
+getEscalationType	filewatcher.py	/^	def getEscalationType(self):$/;"	m	class:Escalation
+getEscalationType	minifilewatcher.py	/^	def getEscalationType(self):$/;"	m	class:Escalation
+getFileObjects	minifilewatcher.py	/^	def getFileObjects(self):$/;"	m	class:ConfigFile
+get_fileName	filewatcher.py	/^	def get_fileName(self):$/;"	m	class:FileDispatcher
+get_handler	filewatcher.py	/^	def get_handler(self):$/;"	m	class:FileDispatcher
+get_pollCycle	filewatcher.py	/^	def get_pollCycle(self):$/;"	m	class:FileDispatcher
+getctime	minifilewatcher.py	/^from os.path import getmtime, getctime$/;"	i
+getmtime	minifilewatcher.py	/^from os.path import getmtime, getctime$/;"	i
+glob	filewatcher.py	/^import glob$/;"	i
+glob	minifilewatcher.py	/^import glob$/;"	i
+glob	testglob.py	/^import glob$/;"	i
+handle_alert	filewatcher.py	/^	def handle_alert(self, fileName, line):$/;"	m	class:FileHandler
+handle_alert	minifilewatcher.py	/^	def handle_alert(self, fileName, line):$/;"	m	class:FileHandler
+handle_clear	filewatcher.py	/^	def handle_clear(self, fileName, line):$/;"	m	class:FileHandler
+handle_clear	minifilewatcher.py	/^	def handle_clear(self, fileName, line):$/;"	m	class:FileHandler
+handle_line	filewatcher.py	/^	def handle_line(self, fileName, line):$/;"	m	class:FileHandler
+handle_line	minifilewatcher.py	/^	def handle_line(self, configFileName, fileName, line):$/;"	m	class:FileHandler
+isalertmatch	filewatcher.py	/^	def isalertmatch(self, line):$/;"	m	class:FileHandler
+isalertmatch	minifilewatcher.py	/^	def isalertmatch(self, line):$/;"	m	class:FileHandler
+ischanged	minifilewatcher.py	/^	def ischanged(self):$/;"	m	class:FileWatcher
+isclearmatch	filewatcher.py	/^	def isclearmatch(self, line):$/;"	m	class:FileHandler
+isclearmatch	minifilewatcher.py	/^	def isclearmatch(self, line):$/;"	m	class:FileHandler
+me	testemail.py	/^me = 'vinod.halaharvi@rtpnet.net'$/;"	v
+msg	testemail.py	/^msg = MIMEText(sys.stdin.read())$/;"	v
+os	filewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+os	minifilewatcher.py	/^import os$/;"	i
+os	minifilewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+os	testenviron.py	/^import os$/;"	i
+os	testpythontail.py	/^import os$/;"	i
+parseConfigFile	filewatcher.py	/^	def parseConfigFile(self):$/;"	m	class:FileWatcher
+parseConfigFile	minifilewatcher.py	/^	def parseConfigFile(self):$/;"	m	class:ConfigFile
+printFileObjects	minifilewatcher.py	/^	def printFileObjects(self):$/;"	m	class:ConfigFile
+queueLock	minifilewatcher.py	/^	queueLock = threading.Lock()$/;"	v	class:FileWatcher
+re	filewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+re	minifilewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+run	filewatcher.py	/^	def run(self):$/;"	m	class:FileDispatcher
+run	filewatcher.py	/^    def run(self):$/;"	m	class:CommandThread
+run	minifilewatcher.py	/^	def run(self):$/;"	m	class:FileWatcher
+s	testemail.py	/^s = smtplib.SMTP('localhost')$/;"	v
+sendTrap	minifilewatcher.py	/^	def sendTrap(self):$/;"	m	class:SnmpTrap
+sendemail	filewatcher.py	/^	def sendemail(self):$/;"	m	class:Email
+sendemail	minifilewatcher.py	/^	def sendemail(self):$/;"	m	class:Email
+setupSmems	minifilewatcher.py	/^	def setupSmems(self):$/;"	m	class:SnmpTrap
+shlex	filewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+shlex	minifilewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+smtplib	filewatcher.py	/^import smtplib$/;"	i
+smtplib	minifilewatcher.py	/^import smtplib$/;"	i
+smtplib	testemail.py	/^import smtplib$/;"	i
+start	filewatcher.py	/^	def start(self):$/;"	m	class:FileDispatcher
+start	filewatcher.py	/^	def start(self):$/;"	m	class:FileWatcher
+start1	filewatcher.py	/^	def start1(self):$/;"	m	class:FileDispatcher
+subprocess	filewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+subprocess	minifilewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+sys	filewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+sys	minifilewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+sys	testemail.py	/^import sys$/;"	i
+sys	testpythontail.py	/^import time ,sys$/;"	i
+threadList	minifilewatcher.py	/^	threadList = []$/;"	v	class:FileWatcher
+threading	filewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+threading	minifilewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+time	filewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+time	minifilewatcher.py	/^import sys, subprocess, shlex, os, time, re, threading, Queue$/;"	i
+time	testpythontail.py	/^import time ,sys$/;"	i
+timedelta	minifilewatcher.py	/^from datetime import datetime, timedelta$/;"	i
+ue	minifilewatcher.py	/^	ue = UpdateEnviron()$/;"	v	class:FileWatcher
+ue	testenviron.py	/^	ue = UpdateEnviron()$/;"	v
+updateEnv	minifilewatcher.py	/^	def updateEnv(self):$/;"	m	class:UpdateEnviron
+updateEnv	testenviron.py	/^	def updateEnv(self):$/;"	m	class:UpdateEnviron
+you	testemail.py	/^you = 'halavin@localhost'$/;"	v
